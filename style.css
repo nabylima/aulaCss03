@@ -1,0 +1,73 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+nav {
+  /* background-color: #EF7D19; */
+}
+
+ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 16px;
+  list-style-type: none;
+}
+
+body {
+  background-color: #593493;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home_main_proz {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home_main_proz_titles {
+  align-self: flex-start;
+  margin: 0 380px;
+}
+
+.section_como_fazemos {
+  display: flex;
+  gap: 20px;
+}
+
+.card_como_fazemos {
+  background: url(img/bg_laranja.jpg);
+  width: 250px;
+  height: 180px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 2px 1px 4px rgb(24, 23, 23)
+}
+
+.card_como_fazemos:hover {
+  scale: 1.1;
+}
+
+.card_descricao {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
